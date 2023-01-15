@@ -4,7 +4,8 @@
   "description": "study of express js server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev index.ts"
   },
   "author": "Denis Ulesov",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "@types/express": "^4.17.15",
     "@types/node": "^18.11.18",
     "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
   },
   "dependencies": {
